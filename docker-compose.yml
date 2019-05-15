@@ -1,0 +1,11 @@
+sftp:
+    image: atmoz/sftp
+    # volumes:
+        # - upload:/home/admin/upload
+        # - /Users/gonzalomelo/.ssh/id_rsa.pub:/home/admin/.ssh/keys/id_rsa.pub:ro
+        # - ./ssh_host_ed25519_key:/etc/ssh/ssh_host_ed25519_key:ro
+        # - ./ssh_host_rsa_key:/etc/ssh/ssh_host_rsa_key:ro
+    ports:
+        - "2222:22"
+    # command: admin::1001
+    command: admin:password:::upload
