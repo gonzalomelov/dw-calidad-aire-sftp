@@ -10,5 +10,5 @@ services:
       ports:
           - "2222:22"
       # command: admin::1001
-      command: admin:9&*%asdflkjsd4123SS:::upload
+      command: admin:93765asdflkjsd4123SS:::upload
       network_mode: bridge
