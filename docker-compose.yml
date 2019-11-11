@@ -12,3 +12,5 @@ services:
       # command: admin::1001
       command: admin:93765asdflkjsd4123SS:::upload
       network_mode: bridge
+      labels:
+      - traefik.enable=false
